@@ -13,6 +13,22 @@ namespace NPSnake.Persistance
     public interface IGameLoad
     {
         /// <summary>
+        /// Gets the identifier of the loaded game.
+        /// </summary>
+        /// <value>
+        /// The identifier of the game.
+        /// </value>
+        Int32 Id { get; }
+
+        /// <summary>
+        /// Gets the name of the loaded game.
+        /// </summary>
+        /// <value>
+        /// The name of the game.
+        /// </value>
+        String Name { get; }
+
+        /// <summary>
         /// Gets the size of the board.
         /// </summary>
         /// <value>
