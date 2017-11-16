@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NSnake.Model
+namespace NPSnake.Model
 {
     /// <summary>
     /// Represents a level of the Snake game.
     /// Intended for communication between the Model and View layers.
     /// </summary>
-    interface ILevel
+    public interface ILevel
     {
         /// <summary>
         /// Gets the identifier of the level.

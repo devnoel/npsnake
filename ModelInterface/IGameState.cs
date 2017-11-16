@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NSnake.Model
+namespace NPSnake.Model
 {
     /// <summary>
     /// Represents a state of the Snake game.
     /// Intended for communication between the Model and View layers.
     /// </summary>
-    interface IGameState
+    public interface IGameState
     {
         /// <summary>
         /// Gets the size of the board.

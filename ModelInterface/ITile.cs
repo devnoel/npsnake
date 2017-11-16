@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NSnake.Model
+namespace NPSnake.Model
 {
     /// <summary>
     /// Represents a tile of the board in the Snake game.
     /// </summary>
-    interface ITile
+    public interface ITile
     {
         /// <summary>
         /// Gets the horizontal index of the tile.

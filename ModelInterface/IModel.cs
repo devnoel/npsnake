@@ -7,9 +7,26 @@ using NPSnake.Persistance;
 
 namespace NPSnake.Model
 {
+    /// <summary>
+    /// Represents the game logic and handles the game's states.
+    /// Provides methods for manipulating the game.
+    /// Provides events for communication with higher layers.
+    /// </summary>
     public interface IModel
     {
-        //TODO add events        
+        /// <summary>
+        /// Event for state changes of the game
+        /// (i.e. for each move of the snake).
+        /// The event handler argument is the new game state.
+        /// </summary>
+        event EventHandler<IGameState> StateChanged;
+
+        /// <summary>
+        /// Event for game over.
+        /// The event handler argument is the reached score.
+        /// </summary>
+        event EventHandler<Int32> GameOver;
+        
         /// <summary>
         /// Sets the persistance object used by model.
         /// </summary>
