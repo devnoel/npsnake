@@ -7,7 +7,7 @@
     <ProjectGuid>{7858BC0B-44C0-44D6-96F1-339824084069}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NSnake.Model</RootNamespace>
+    <RootNamespace>NPSnake.Model</RootNamespace>
     <AssemblyName>SnakeModel</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
