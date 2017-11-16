@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace NPSnake.Persistance
 {
+    /// <summary>
+    /// Data source of the game.
+    /// Provides data of saved game configurations.
+    /// </summary>
     public interface IPersistance
     {
         /// <summary>

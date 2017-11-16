@@ -7,7 +7,7 @@
     <ProjectGuid>{F405473F-F85F-4CE4-B4C9-C1604A1DAAC2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NSnake.Persistance</RootNamespace>
+    <RootNamespace>NPSnake.Persistance</RootNamespace>
     <AssemblyName>PersistanceInterface</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
