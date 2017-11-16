@@ -40,8 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Direction.cs" />
+    <Compile Include="GameTimer.cs" />
+    <Compile Include="Snake.cs" />
     <Compile Include="Level.cs" />
     <Compile Include="GameState.cs" />
+    <Compile Include="Move.cs" />
     <Compile Include="Tile.cs" />
     <Compile Include="SnakeModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
