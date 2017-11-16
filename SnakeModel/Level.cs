@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NPSnake.Model
 {
-    class Level
+    class Level : ILevel
     {
         public Int32 Id { get; internal set; }
         public String Name { get; internal set; }
